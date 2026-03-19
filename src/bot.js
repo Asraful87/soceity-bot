@@ -14,6 +14,7 @@ const client = new Client({
 });
 
 client.commands = new Collection();
+client.components = new Collection(); // buttons + modals
 
 // ── Command Loader ────────────────────────────────────────────────────────────
 function loadCommands() {
