@@ -7,7 +7,7 @@ module.exports = {
 
   async execute(interaction) {
     if (!isStaff(interaction.member)) {
-      return interaction.reply({ content: 'You do not have permission to use this feature.', ephemeral: true });
+      return interaction.reply({ content: 'You do not have permission to use this features.', ephemeral: true });
     }
 
     const userId    = interaction.customId.replace('approve_application_', '');
